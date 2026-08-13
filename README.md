@@ -12,7 +12,7 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 In today's smartphone-driven world, understanding what drives data consumption is valuable for telecom companies and app developers. This project explores the relationship between the **number of apps installed** on a phone and the user's **daily mobile data usage**.
 
@@ -80,7 +80,7 @@ Using a dataset of **700 smartphone users**, this project:
 
 ---
 
-## 💻 Step-by-Step Code Explanation
+##  Step-by-Step Code Explanation
 
 ###  Step 1 — Loading & Exploring the Dataset
 ```python
@@ -138,7 +138,7 @@ print(model.coef_)         # 22.30
 ```
 Data Usage = 22.30 × (Number of Apps) − 197.62
 ```
-> 💡 Each additional app adds approximately **22.30 MB/day** of data usage.
+>  Each additional app adds approximately **22.30 MB/day** of data usage.
 
 ###  Step 8 — Prediction & Evaluation
 ```python
@@ -178,7 +178,7 @@ Predicted Data Usage ≈ 14.21 MB/day
 
 ## 📊 Visualization
 
-![Scatter Plot](scatter_plot.png)
+![Scatter Plot](regression_plot.png)
 
 *The scatter plot reveals a clear positive linear relationship between the number of apps installed and daily data usage.*
 
@@ -200,25 +200,6 @@ Telecom companies can use this to **forecast network load** and design better da
 
 ---
 
-##  How to Run
-
-### Prerequisites
-- Python 3.8+
-- Jupyter Notebook
-
-### Steps
-```bash
-# 1. Clone the repository
-git clone https://github.com/[YOUR_USERNAME]/DS402-Lab2-Linear-Regression-User-Behavior.git
-cd DS402-Lab2-Linear-Regression-User-Behavior
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Launch the notebook
-jupyter notebook zoha_390621_codes_lab2.ipynb
-
-# 4. Run all cells (Kernel → Run All)
 ```
 
 ### 📄 requirements.txt
