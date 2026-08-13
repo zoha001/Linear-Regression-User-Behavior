@@ -176,13 +176,7 @@ Predicted Data Usage ≈ 14.21 MB/day
 
 ---
 
-## 📊 Visualization
 
-![Scatter Plot](regression_plot.png)
-
-*The scatter plot reveals a clear positive linear relationship between the number of apps installed and daily data usage.*
-
----
 
 ##  Key Insights
 
